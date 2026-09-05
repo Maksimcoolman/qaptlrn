@@ -30,7 +30,7 @@ def get_github_user_info(username):
     elif response.status_code == 404 or response.status_code == 401:
         print("User not found or access forbidden.")
 
-user_data = get_github_user_info("Maksimcoolman")
+user_data = get_github_user_info("d")
 if user_data is not None:
     with open("user_info.json", "w") as f:
         json.dump(user_data, f, indent=4)
