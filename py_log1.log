@@ -1,0 +1,6 @@
+2026-09-11 11:11:09,041 - INFO - test message
+2026-09-11 11:11:09,042 - INFO - Base URL: https://api.github.com
+2026-09-11 11:11:09,042 - INFO - sending HEAD to https://api.github.com/users/octocat
+2026-09-11 11:11:09,204 - INFO - HEAD request to /users/octocat returned status code: 200
+2026-09-11 11:11:09,204 - INFO - sending GET to https://api.github.com/users/octocat
+2026-09-11 11:11:09,334 - INFO - GET request to /users/octocat returned status code: 200
